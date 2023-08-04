@@ -1,20 +1,26 @@
-.gradient-background {
-    background: linear-gradient(300deg, #00FF00, #FFC0CB, #40E0D0, #00FFFF );
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+.text-center {
+  text-align: center;
+}
+
+.text-body-emphasis {
+  color: #007bff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .profile-img {
+    width: 150px;
+    height: 150px;
   }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+
+  .lead {
+    font-size: 16px;
   }
+}
+
   .top-container {
     background-color: #e4f9f5;
     position: relative;
@@ -22,9 +28,9 @@
     text-align: center;
 }
 .profile-img {
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  width: 200px;
+      height: 200px;
+      border-radius: 50%;
 }
 .background {
   background-color: #f1f1f1;
@@ -132,6 +138,25 @@ body, h1, h2, h3, p {
 }
 
 .coding p {
+  font-size: 16px;
+  color: #666;
+}
+
+.parent1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent1 img {
+  width: 200px;
+  padding-top: 10px;
+}
+.seeding h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.seeding p {
   font-size: 16px;
   color: #666;
 }

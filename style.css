@@ -1,0 +1,214 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00FF00, #FFC0CB, #40E0D0, #00FFFF );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+}
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.background {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+.service-box {
+  background-color: #fff;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  box-shadow: 1px 1px 10px #808080;
+  overflow: hidden;
+  
+}
+.service-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.row {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.s-title{
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+#project {
+  padding: 60px 0;
+  text-align: center;
+}
+.title-a {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.subtitle-a {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+.line-mf {
+  width: 50px;
+  height: 2px;
+  background-color: #333;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.service-content {
+  padding: 15px;
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+#skills {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.skills {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skills h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typing img {
+  width: 200px;
+}
+
+.coding {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.coding h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.coding p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Styling for the "Contact Me" section */
+#contact {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact-me {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-me h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.contact-me .contact-message {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.contact-me .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #666;
+  color: dark;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-me .btn:hover {
+  background-color: grey;
+}
+
+.contact-me .btn:focus {
+  outline: none;
+}
+
+/* Styling for the footer */
+.container {
+  background-color: #f9f9f9;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.my-4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nav {
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+  
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #666;
+}

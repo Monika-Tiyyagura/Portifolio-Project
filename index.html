@@ -27,6 +27,73 @@
 
     <!-- Import CSS: Main Stylesheet -->
     <link rel="stylesheet" href="./assests/css/main.css" />
+    <style>
+      .user-experience {
+        display: flex;
+        margin-bottom: 30px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;        
+      }
+      .user-experience .images-left,
+      .user-experience .images-right {
+        flex: 0 0 20%;
+      }
+      .user-experience .contents-right,
+      .user-experience .contents-left {
+        flex: 0 0 70%;
+        padding: 0 20px;
+      }
+      
+      .user-projects .images-left,
+      .user-projects .images-right {
+        flex: 0 0 20%;
+      }
+      .user-projects .contents,
+      .user-projects .contents {
+        flex: 0 0 70%;
+        padding: 0 20px;
+      }
+      .user-experience img {
+        width: 100%;
+        border-radius: 8px;
+      }
+      .user-projects h3 {
+        color: #333;
+        margin-bottom: 10px;
+      }
+      .user-projects p {
+        color: #666;
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 16px;
+      }
+      .user-experience {
+        display: flex;
+        margin-bottom: 30px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;        
+      }
+
+
+
+      
+      .user-experience img {
+        width: 100%;
+        border-radius: 8px;
+      }
+      .user-experience h3 {
+        color: #333;
+        margin-bottom: 10px;
+      }
+      .user-experience p {
+        color: #666;
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 16px;
+      }
+    </style>
   </head>
   <body>
     <div id="particles-js">
@@ -52,6 +119,7 @@
         <div class="header-links">
           <a class="link" href="#about" data-scroll>About Me</a>
           <a class="link" href="#projects" data-scroll>Projects</a>
+          <a class="link" href="#experience" data-scroll>Work Experience</a>
           <a class="link" href="#awards" data-scroll>Awards & Achievements</a>
         </div>
       </div>
@@ -79,7 +147,7 @@
           />
         </picture>
         <p>
-          I'm a driven Computer Science student at Clemson University with a focus on Software Engineering. I'm always eager to tackle fresh challenges and broaden my understanding. My robust foundation in computer science encompasses expertise in programming languages like Java, JavaScript, Python, and C++, along with proficiency in software development, data structures, algorithms, and problem-solving. I'm deeply passionate about staying abreast of cutting-edge technologies and enthusiastic about making meaningful contributions to progressive projects within the dynamic realm of computer science.         
+          Hi, I'm Monika, I've graduated from Clemson University with a master's degree in computer science with a focus in software engineering. during my academic journey i acquired proficiency in java, react, javascript and nodeJs. Prior to this i worked at VeeTechnologies which falls under healthcare sector where i am part of team to help in building and maintaing the software that holds the patient's important data. My contribution during those 4 years with Vee is pretty remarkable as I achieved the reduction in development time , bugs and improved the software performance. and as open-source contributor i've contributed to projects like codinasion, docusaories which shows my commitment to collabarative success. so yeah I am very much excited about this opportunity and to showcase my skills, working on innovative projects and also continue to keep learn new technologies.         
         </p>
       </div> 
       
@@ -126,6 +194,51 @@
       </div>
       </div>
     </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience">
+      <div class="user-details" style="padding: 50px 0; text-align: center;">
+        <h1>Work Experience</h1>
+      </div>
+  
+      <!-- Experience #1: VeeTechnologies -->
+      <div class="user-experience">
+        <div class="images-left">
+          <picture>
+            <img alt="VeeTechnologies" src="./assests/vee.png" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Software Developer/Analyst</h3>
+          <p style="text-align: justify">Part of team that maintained healthcare-specific software solutions, ensuring integration with medical billing, insurance claims, and healthcare payment systems for a group of US based hospitals.</p>
+          <p style="text-align: justify"> Led cross-functional teams to achieve a 20% reduction in development time and a 30% decrease in post-release defects through rigorous coding standards and Agile methodologies.</p>
+          <p style="text-align: justify">Enhanced team efficiency, reduced application bugs by 25%, and improved software performance by 30% by streamlining onboarding processes and leveraging expertise in Python and React with Typescript.</p>
+        </div>
+      </div>
+  
+      <!-- Add more experiences as needed -->
+         
+        <!-- Experience #2: open Source contribution -->
+        <div class="user-experience">
+          <div class="images-left">
+            <picture>
+              <img alt="Codinasion & Docusaurus" src="./assests/codi.png" />
+            </picture>
+          </div>
+          <div class="contents-right" style="text-align: center">
+            <h3>Open-Source Contribution</h3>
+            <p style="text-align: justify">Enhanced Codinasion's functionality, drove community adoption, and improved code quality through feature development, bug 
+              resolution, and comprehensive code reviews..</p>
+            <p style="text-align: justify"> Improved accessibility and user understanding of Docusaurus documentation, actively engaging in community discussions for collective 
+              problem-solving and knowledge exchange.</p>
+            <p style="text-align: justify">Earned acclaim in the open-source domain with GitHub contributions, showcasing a steadfast commitment to software excellence and 
+              collaborative success.</p>
+          </div>
+        </div>
+      
+    </section>
+      
+
   <!-- Projects Section -->
   <section id="projects">
     <div class="user-details" style="padding: 50px 0; text-align: center; ">
